@@ -27,7 +27,7 @@ export const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content }) =
         ),
         // Paragraphs
         p: ({ node, ...props }) => (
-          <p className="mb-3 leading-relaxed last:mb-0 text-gray-700" {...props} />
+          <p className="inline mb-3 leading-relaxed last:mb-0 text-gray-700" {...props} />
         ),
         // Lists
         ul: ({ node, ...props }) => (
